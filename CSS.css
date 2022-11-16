@@ -6,15 +6,15 @@ p
 h1
 {
     text-align: center;
-    text-decoration: overline;
     color: rgb(240, 18, 18);
-    font-style: inherit;
+    border: 5px gold;
+    border-style:wave;
 }
 strong
 {
     color: blue;
 }
-/*body
+body
 {
     background-image: url("attention.jpg") ;
     background-attachment: fixed;
@@ -23,26 +23,20 @@ strong
     background-repeat:no-repeat;
     background-color: rgb(234, 245, 238);
     color: cyan; 
-}*/
+}
 img
 {
     display: block; margin: auto;
 }
-
-/*body
+body
 {
     color:black;
     background-color:white;
     background-image: url("https://www.educol.net/photo-paysage-enneige-dans-les-montagnes-dl17039.jpg");
     background-attachment: fixed;
 }
-*/
 h4
 {
     color: blue;
     text-decoration-style: solid;
-}
-img [title]
-{
-    color: blue;
 }
