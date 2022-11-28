@@ -64,4 +64,8 @@ h1{
     display: flex;
     justify-content: space-around;
 }
+.prix{
+    display: inline-flex;
+    align-items: end;
+}
 
