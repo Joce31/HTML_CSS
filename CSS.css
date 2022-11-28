@@ -1,0 +1,42 @@
+p
+{
+    text-align: center;
+    color: rgb(27, 4, 9);
+}
+h1
+{
+    text-align: center;
+    color: rgb(240, 18, 18);
+    border: 5px gold;
+    border-style:wave;
+}
+strong
+{
+    color: blue;
+}
+body
+{
+    background-image: url("attention.jpg") ;
+    background-attachment: fixed;
+    background-position:bottom right;
+    background-size: 20%;
+    background-repeat:no-repeat;
+    background-color: rgb(234, 245, 238);
+    color: cyan; 
+}
+img
+{
+    display: block; margin: auto;
+}
+body
+{
+    color:black;
+    background-color:white;
+    background-image: url("https://www.educol.net/photo-paysage-enneige-dans-les-montagnes-dl17039.jpg");
+    background-attachment: fixed;
+}
+h4
+{
+    color: blue;
+    text-decoration-style: solid;
+}
