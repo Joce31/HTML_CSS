@@ -1,0 +1,67 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    background-color: #6973F0;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.bandeau{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border:#FF6ED0;
+    border-style: ridge;
+    list-style: none;
+    border-radius: 20px;
+    margin-top: 0px;
+    border-color: #FF6ED0;
+    
+}
+.images{
+    width: 200px;
+}
+.categories{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-style:ridge;
+    border-color: #D94856;
+    color: #D94856;
+    display: flex;
+    flex-direction: column;
+    border-style: ridge;
+    border-radius: 20px;
+}
+
+.souscategories{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.garcons{
+    display: block;
+    flex-direction: column;
+    padding-top: 65px;
+}
+.taille{
+    display: flex;
+    justify-content: center;
+}
+.filles{
+    display:block;
+    flex-direction:column;
+
+}
+.enfants{
+    display: flex;
+    justify-content: space-around;
+}
+

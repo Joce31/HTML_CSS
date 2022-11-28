@@ -1,0 +1,154 @@
+                         /* haut de page*/
+body{
+    width: 750px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.en-tete{
+    background-color: rgba(242,242,242,255);
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-block-end: auto;
+    color: rgba(31,73,125,255);
+}
+.sous-titre{
+    color: rgba(31,73,125,255) ;
+    background-color: rgba(242,242,242,255);
+    padding: 10px;
+    text-align: center;
+    font-size:x-large;
+    margin: 0%;
+
+}
+
+#description{  
+   
+    display: flex;
+
+}
+
+#texteintro{
+    padding: 20px;
+    color: white;
+    align-items: center;
+    display: flex;
+    background-color: rgba(31,73,125,255);
+    flex-direction: column;  
+    font-size:large;
+
+}
+
+.photo{
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 19px;
+}
+            /*tout les blocs en bas*/
+.test{
+    display: flex;
+}
+                /*bloc gauche*/
+#gauche{
+
+
+}
+
+.date{
+    float: left;
+    background-color: rgba(31,73,125,255);
+    border-radius: 20px;
+    width: 40px;
+
+}
+.texte_gauche{
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 100%;  
+
+}
+.fin{
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 20%;
+    font-size: small;
+    line-height: 100%;
+
+
+}
+
+
+h1{
+
+    color:rgba(31,73,125,255);
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 5%;
+}
+#barre_gris{
+
+    border-bottom:rgba(192,192,192,255) 3px solid ;
+    margin-right: 10%;
+
+}
+#barre_blanche{
+    border-bottom: white 3px solid;
+}
+#barre_bleu{
+    border-bottom: rgba(31,73,125,255) 3px solid;
+}
+
+h2{
+    color: black;
+    font-size:small;
+    margin: 0%;
+}
+h3{
+    color: rgba(120,146,178,255);
+    font-size: small;
+    margin: 0%;
+}
+/* bloc droit*/
+#droite{
+
+}
+.contact{
+    align-items: stretch;
+    color: white;
+    background-color: rgba(31,73,125,255);
+    width: 250px;
+    padding: 20px;
+    
+}
+#liste_contact{
+    list-style-type: none;
+}
+
+#titre_blanc{
+
+    color: rgb(252, 252, 252);
+    margin-left: 10%;
+
+}
+.couleur_blanc{
+    color: white;
+}
+.competences{
+
+    padding: 30px;
+    background-color:rgba(242,242,242,255) ;
+}
+.hobbies{
+    padding: 10px;
+    color: white;
+    background-color: rgba(31,73,125,255);
+    font-size: medium;
+}
+
+li{
+    display: flex;
+}
+
+

@@ -3,17 +3,22 @@ p
     text-align: center;
     color: rgb(27, 4, 9);
 }
-h1
+
+h1 
 {
     text-align: center;
     color: rgb(240, 18, 18);
-    border: 5px gold;
-    border-style:wave;
+    border: 5px ridge red;
+    padding: 10px;
+    border-width: 10px; display: block;
+    border-style: inset;
+    width: 20%;
+    position: relative; top: auto; left: 40%;
 }
-strong
-{
-    color: blue;
+a{
+    text-decoration : inherit ;
 }
+                            /*element en bas a droite*/                            
 body
 {
     background-image: url("attention.jpg") ;
@@ -21,22 +26,45 @@ body
     background-position:bottom right;
     background-size: 20%;
     background-repeat:no-repeat;
-    background-color: rgb(234, 245, 238);
-    color: cyan; 
+    color:cyan; 
 }
 img
 {
     display: block; margin: auto;
 }
-body
+                                    /*survol*/
+a:hover
 {
-    color:black;
-    background-color:white;
-    background-image: url("https://www.educol.net/photo-paysage-enneige-dans-les-montagnes-dl17039.jpg");
-    background-attachment: fixed;
+    text-decoration: none;
+    color: greenyellow;
 }
-h4
+h3
 {
-    color: blue;
-    text-decoration-style: solid;
+    text-align: center;
+    border: 5px inset blue;
+    padding: 10px;margin: 20px;
+    width: 20%;
+    position: relative; top: 10px; left: 70%;
+}
+img
+{
+        width: 20%;
+}
+#texte1
+{
+    TEXT-ALIGN: INHERIT;
+    DISPLAY: INLINE-BLOCK;
+    MARGIN-RIGHT: 60%;
+}
+#texte2
+{
+    text-align: inherit;
+    display: inline-block;
+    margin-left: 60%;
+}
+#bloc1
+{
+    text-align: center;
+    position: inherit;
+    justify-content: center;
 }
