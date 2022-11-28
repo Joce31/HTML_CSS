@@ -1,0 +1,28 @@
+#portrait
+{
+    width: 40%;
+    margin: 10%;
+    float: right;
+    align-items: flex-end;
+}
+#titre
+{
+text-align: center;
+border:0ch; margin: auto;padding: auto;
+
+}
+#sous-titre
+{
+    border: 50%; margin: 0%; padding: 0%;
+    text-align: center;
+}
+article
+{
+text-align: left;
+font-size: small;
+padding: 10%;
+margin: 10%;
+padding-bottom: 12%;
+background-color: aqua;
+flex-wrap: wrap;
+}
