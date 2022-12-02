@@ -3,10 +3,11 @@ body{
     width: 1000px;
     text-align: center;
     margin: auto;
+    background-position: 15px;
 }
 h1{
     text-align: center;
-    background-color: #6973F0;
+    height: 250px;
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 0px;
@@ -67,5 +68,8 @@ h1{
 .prix{
     display: inline-flex;
     align-items: end;
+}
+.titre{
+    display: flex;
 }
 
