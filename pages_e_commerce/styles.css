@@ -1,10 +1,12 @@
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 1000px;
     text-align: center;
     margin: auto;
     background-position: 15px;
+    background-color:#abddd9;
 }
+
 h1{
     text-align: center;
     height: 250px;
@@ -12,33 +14,39 @@ h1{
     padding: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
+    background-image: url(logos/logos2.png);
+    background-position: 500px;
+
+}
+h2{
+    text-align: center;
 }
 .bandeau{
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    border:#FF6ED0;
-    border-style: ridge;
+    border-style: outset;
     list-style: none;
-    border-radius: 20px;
+    border-radius: 50px;
+    color: #D43E39;
     margin-top: 0px;
-    border-color: #FF6ED0;
+    border-color: #47DED7;
     
 }
 .images{
-    width: 200px;
+    height: 200px;
 }
 .categories{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    border-style:ridge;
-    border-color: #D94856;
-    color: #D94856;
+    border-style: outset;
+    border-color:#47DED7;
+    color: #D43E39;
     display: flex;
     flex-direction: column;
     border-style: ridge;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .souscategories{
@@ -48,28 +56,88 @@ h1{
     justify-content: space-around;
 }
 .garcons{
-    display: block;
-    flex-direction: column;
+
     padding-top: 65px;
 }
 .taille{
+    color: inherit;
+    
     display: flex;
     justify-content: center;
 }
+.taille1{
+    display: flex;
+}
 .filles{
-    display:block;
-    flex-direction:column;
-
+    display: flex;
+    padding-top: 65px;
 }
 .enfants{
     display: flex;
     justify-content: space-around;
+
 }
 .prix{
+    height: 200px;
     display: inline-flex;
-    align-items: end;
+}
+.container{
+    background-color: white;
+
+
 }
 .titre{
     display: flex;
 }
+/*
+@media (max-width:200px){
+    .categories{
+        flex-direction: column;
+    }
+}*/
+.footer{
+    border-style: outset;
+    background-color: #D43E39;
+    border-radius: 20px;
+    height: 100px;
+}
+.bandeau_footer{
+    display: flex;
+    border-style: outset;
+    border-radius: 20px;
+    padding: 20px;
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DED9CC;
 
+}
+.icones{
+    width: 20px;
+    display: flex;
+}
+
+.femme{
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.adulte{
+
+    flex-direction: column;
+
+}
+.imagesF{
+    display: flex;
+    width: 200px;
+}
+.homme{
+    display: flex;
+
+}
+.adulteH{
+
+}
