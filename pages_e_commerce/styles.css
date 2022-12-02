@@ -1,27 +1,30 @@
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 1000px;
     text-align: center;
     margin: auto;
+    background-color: #EEF7F3;
 }
 h1{
     text-align: center;
-    background-color: #6973F0;
+    background-image: url(LOGOS/VetAvendre.png);
+    background-size: 250px;
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
+    height: 200px;
 }
 .bandeau{
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    border:#FF6ED0;
+
     border-style: ridge;
     list-style: none;
     border-radius: 20px;
     margin-top: 0px;
-    border-color: #FF6ED0;
+    border-color:#088DD4;
     
 }
 .images{
@@ -32,8 +35,7 @@ h1{
     justify-content: space-between;
     list-style: none;
     border-style:ridge;
-    border-color: #D94856;
-    color: #D94856;
+    border-color: #088DD4;
     display: flex;
     flex-direction: column;
     border-style: ridge;
