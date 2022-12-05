@@ -1,79 +1,49 @@
 body{
-<<<<<<< HEAD
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 1000px;
-    text-align: center;
-    margin: auto;
-    background-position: 15px;
-    background-color:#abddd9;
-=======
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 1000px;
     text-align: center;
     margin: auto;
     background-color: #EEF7F3;
->>>>>>> cb1716e0647e67f47eeeeb52a1774eb4c794de0b
+
 }
 
 h1{
     text-align: center;
-<<<<<<< HEAD
-    height: 250px;
-=======
-    background-image: url(LOGOS/VetAvendre.png);
+    height: 250px;;
     background-size: 250px;
->>>>>>> cb1716e0647e67f47eeeeb52a1774eb4c794de0b
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
-<<<<<<< HEAD
     background-image: url(logos/logos2.png);
-    background-position: 500px;
-
+    background-size: 250px
 }
 h2{
     text-align: center;
-=======
+
     height: 200px;
->>>>>>> cb1716e0647e67f47eeeeb52a1774eb4c794de0b
+
 }
 .bandeau{
     display: flex;
     padding: 20px;
     justify-content: space-between;
-<<<<<<< HEAD
-    border-style: outset;
-=======
-
     border-style: ridge;
->>>>>>> cb1716e0647e67f47eeeeb52a1774eb4c794de0b
     list-style: none;
     border-radius: 50px;
     color: #D43E39;
-    margin-top: 0px;
-<<<<<<< HEAD
-    border-color: #47DED7;
-=======
     border-color:#088DD4;
->>>>>>> cb1716e0647e67f47eeeeb52a1774eb4c794de0b
     
 }
 .images{
     height: 200px;
 }
 .categories{
+    height: 150px;
     display: flex;
     justify-content: space-between;
-    list-style: none;
-<<<<<<< HEAD
-    border-style: outset;
     border-color:#47DED7;
-    color: #D43E39;
-=======
     border-style:ridge;
-    border-color: #088DD4;
->>>>>>> cb1716e0647e67f47eeeeb52a1774eb4c794de0b
     display: flex;
     flex-direction: column;
     border-style: ridge;
@@ -92,7 +62,7 @@ h2{
 }
 .taille{
     color: inherit;
-    
+    height: 20px;
     display: flex;
     justify-content: center;
 }
@@ -152,10 +122,11 @@ h2{
     display: flex;
     justify-content: center;
 }
+/*
 .container1{
     display: flex;
     flex-direction: column;
-}
+}*/
 .adulte{
 
     flex-direction: column;
@@ -167,8 +138,7 @@ h2{
 }
 .homme{
     display: flex;
+    justify-content: center;
 
 }
-.adulteH{
 
-}
